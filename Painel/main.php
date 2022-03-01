@@ -25,7 +25,7 @@
         <nav>
           <ul>
             <a <?php selecionadoMenu('home');?> href="<?php echo INCLUDE_PATH_PAINEL ?>home"><i class="fa fa-home"></i> HOME</a>
-            <a <?php  selecionadoMenu('painel-home');?> <?php verificaPermissaoMenu(1);?> href="<?php echo INCLUDE_PATH_PAINEL ?>painel-home"><i class="fa fa-newspaper-o"></i> PAINEL</a>
+            <a <?php selecionadoMenu('painel-home');?> <?php verificaPermissaoMenu(1);?> href="<?php echo INCLUDE_PATH_PAINEL ?>painel-home"><i class="fa fa-newspaper-o"></i> PAINEL</a>
             <a <?php selecionadoMenu('aulas-home');?> href="<?php echo INCLUDE_PATH_PAINEL ?>aulas-home"><i class="fas fa-book"></i> AULAS</a>
             <a <?php selecionadoMenu('statistics-home');?> <?php verificaPermissaoMenu(1);?> href="#"><i class="fas fa-sticky-note"></i> ESTATÍSTICAS</a>
             <a <?php selecionadoMenu('config-home');?> href="#"><i class="fas fa-gear"></i> CONFIGURAÇÕES</a>

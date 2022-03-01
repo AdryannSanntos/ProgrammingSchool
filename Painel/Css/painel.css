@@ -271,6 +271,10 @@ html,body{
   margin-top: 25px;
 }
 
+.content-container main .container-left .box-content .container-aula{
+  padding: 20px;
+}
+
 .content-container main .container-left .box-content .avatar-usuario{
   border: 2px solid #26282d;
   width: 144px;
@@ -300,6 +304,14 @@ html,body{
   border: 1px solid #d6d6d6;
   margin: 5px 0;
   width: 100%;
+  color: #000;
+}
+
+.content-container main .container-left .box-content select{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d6d6d6;
+  margin: 5px 0;
   color: #000;
 }
 
@@ -372,6 +384,14 @@ html,body{
   display: none;
 }
 
+.menu-button{
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
 /* UTILS */
 
 .W100{
@@ -382,15 +402,32 @@ html,body{
   width: 49%;
 }
 
+.Flex{
+  display: flex;
+}
+
+.FlexWrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .Column{
   display: flex;
   flex-direction: column;
 }
 
-.menu-button{
-  background-color: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
+.box-alert{
+	width: 100%;
+	padding:8px 0;
+	text-align: center;
+}
+
+.sucesso{
+	background: #a5d6a7;
+	color: white;
+}
+
+.erro{
+	background: #F75353;
+	color: white;
 }

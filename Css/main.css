@@ -38,3 +38,19 @@ header{
   text-decoration: none;
   color: #000;
 }
+
+.box-alert{
+	width: 100%;
+	padding:8px 0;
+	text-align: center;
+}
+
+.sucesso{
+	background-color: #a5d6a7;
+	color: white;
+}
+
+.erro{
+	background-color: #F75353;
+	color: white;
+}

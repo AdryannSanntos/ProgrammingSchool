@@ -1,1 +1,1 @@
-teste
+<?php include('painel-header.php'); ?>

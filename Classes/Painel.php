@@ -31,11 +31,11 @@
 			}
 		}
 
-        public static function alert($tipo,$mensagem){
+    public static function alert($tipo,$mensagem){
 			if($tipo == 'sucesso'){
-				echo '<div class="box-alert sucesso"><i class="fa fa-check"></i> '.$mensagem.'</div>';
+				echo '<div style="margin: 15px 0;font-family: Open Sans, sans-serif;width: 100%; padding: 8px 0; text-align: center; background: #a5d6a7; color: white" class="box-alert sucesso"><i class="fa fa-check"></i> '.$mensagem.'</div>';
 			}else if($tipo == 'erro'){
-				echo '<div class="box-alert erro"><i class="fa fa-times"></i> '.$mensagem.'</div>';
+				echo '<div style="margin: 15px 0;font-family: Open Sans, sans-serif;width: 100%; padding: 8px 0; text-align: center; background: #F75353; color: white" class="box-alert erro"><i class="fa fa-times"></i> '.$mensagem.'</div>';
 			}
 		}
 

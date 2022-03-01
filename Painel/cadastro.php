@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a8563284e2.js" crossorigin="anonymous"></script>
   <title>Cadastro</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
         $password = $_POST['password'];
         $sql = MySQL::Connnect()->prepare("INSERT INTO `tb.admin.users` (name,email,password) VALUES (?,?,?)");
         $sql->execute(array($name,$email,$password));
-        header("Location:" . INCLUDE_PATH_PAINEL);
+        Painel::alert('sucesso', 'cadastro realizado');
       }
     ?>
     <header>
