@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-header{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-title{
+
+}
+
+.container-buttons{
+  
+}
+
+.container-buttons nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.container-buttons nav ul li{
+  margin: 0 10px;
+}
+
+.container-buttons nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
