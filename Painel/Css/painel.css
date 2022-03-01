@@ -289,12 +289,30 @@ html,body{
 	-ms-transform:translate(-50%,-50%);
 }
 
+.content-container main .container-left .box-content form{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container main .container-left .box-content form input{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d6d6d6;
+  margin: 5px 0;
+  width: 100%;
+  color: #000;
+}
+
 .content-container main .container-left .box-content input{
   padding: 10px;
   outline: none;
   border: 1px solid #d6d6d6;
   margin: 5px 0;
   color: #000;
+}
+
+.content-container main .container-left .box-content input[type="submit"]{
+  cursor: pointer;
 }
 
 .content-container main .container-left .box-content input::placeholder{
